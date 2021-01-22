@@ -50,6 +50,7 @@ function memoize(func, resolver, timeout) {
                 return funcValue;
             }
         } else {
+            // calculating new result
             funcDictionary = new Map();
             let funcValue = func(args);
             funcDictionary.set(key, {
