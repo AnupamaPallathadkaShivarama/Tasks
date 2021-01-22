@@ -1,2 +1,4 @@
-finding a person in a list of contacts within the timeout value
+a) Giving an empty set of arguments for memoization function.(for the different combinations of function, resolver and timeout)
+b) Introducing a lesser value of timeout rather than the actual expected time of execution
+c) Setting the size of the cache and generating functions with varying range of size of the result
 
